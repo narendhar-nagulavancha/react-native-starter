@@ -5,6 +5,10 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -24,11 +28,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.narendharlive.starter"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "googleServicesFile": "./google-services.json",
+    "permissions": [
+      "CAMERA",
+      "WRITE_EXTERNAL_STORAGE",
+      "READ_EXTERNAL_STORAGE"
+    ],
     "extra": {
       "eas": {
         "projectId": "7d991a86-14b4-4f23-8bff-14802dfdf28e"
